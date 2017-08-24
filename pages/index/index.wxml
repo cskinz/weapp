@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="swiper">
+  <swiper indicator-dots="{{is_dots}}" autoplay="true" current="{{swiperCurrent}}" interval="5000" duration="600" bindchange="swiperChange">
+    <block wx:for="{{img_data}}">
+      <swiper-item>
+        <image src="{{item.img_url}}" mode="aspectFill"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="dots" wx:if="{{swiper_style == 1}}">
+    <block wx:for="{{img_data}}" wx:key="unique">
+      <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+    </block>
+  </view>
+</view>
+ <!--nav-->
+  <view class="nav flex">
+    <block wx:for="{{nav}}" wx:for-item="item" wx:key="item.id">
+      <navigator url="{{item.navigator}}" class="nav-item">
+        <image src="{{item.imgurl}}"></image>
+        <text>{{item.title}}</text>
+      </navigator>
+      </block>
+  </view>
+<!-- <view class="case_title">
+    <text>案例推荐</text>
+  </view>
+          <view class="caselist">
+          <ul>
+                <block wx:for="{{caselist}}" wx:for-item="item" wx:key="item.id">
+
+                 <li>
+                  <image src="{{item.imgurl}}" mode="{{item.mode}}"></image>
+                  <text>{{item.title}}</text>
+                  </li>
+   </block>
+                  </ul>
+ </view> -->
+  		<!-- 热门场地 -->
+		<view class="part" id="hostPlaceList">
+			<view class="part-title" id="hostPlace">集团网站</view>
+			 <a href="detail.html" class="place-item" wx:for="{{suggests}}" wx:key="item.id">
+				<view class="place-item-img" style="background-image:url({{item.avatar}})">
+					<span class="placeType-info"><i wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this">{{tag}}</i></span>
+				</view>
+				<view class="place-item-info">
+					<view class="clearfix"><span class="place-item-info-title">{{item.name}}</span></view>
+					<p class="place-item-info-detail"><i>{{item.text}}</i></p>
+				</view>
+			</a> 
+		</view>
+		<!-- 底部点击搜索 -->

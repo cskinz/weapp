@@ -1,0 +1,12 @@
+<!--case.wxml-->
+		<view class="part" id="hostPlaceList">
+			 <a href="detail.html" class="place-item" wx:for="{{suggests}}" wx:key="item.id">
+				<view class="place-item-img" style="background-image:url({{item.avatar}})">
+					<span class="placeType-info"><i wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this">{{tag}}</i></span>
+				</view>
+				<view class="place-item-info">
+					<view class="clearfix"><span class="place-item-info-title">{{item.name}}</span></view>
+					<p class="place-item-info-detail"><i>{{item.text}}</i></p>
+				</view>
+			</a> 
+		</view>

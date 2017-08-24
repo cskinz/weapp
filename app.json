@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/contact/contact",
+    "pages/about/about",
+    "pages/case/case",
+    "pages/service/service",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#096CEB",
+    "navigationBarTitleText": "长沙网站制作公司-专业互联网服务商",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#096CEB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/11.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/2.png",
+        "iconPath": "images/22.png",
+        "pagePath": "pages/service/service",
+        "text": "服务项目"
+      },
+      {
+        "selectedIconPath": "images/3.png",
+        "iconPath": "images/33.png",
+        "pagePath": "pages/case/case",
+        "text": "客户案例"
+      },
+      {
+        "selectedIconPath": "images/4.png",
+        "iconPath": "images/44.png",
+        "pagePath": "pages/about/about",
+        "text": "关我我们"
+      },
+      {
+        "selectedIconPath": "images/5.png",
+        "iconPath": "images/55.png",
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们"
+      }
+    ]
+  }
+}
