@@ -2,13 +2,14 @@
 <view class="container">
 <image src="../../images/contact.jpg"></image>
 </view>
-<view class="contact-title">
-联系方式
-</view>
+
 <view class="contact">
     <button type="default" class="weui-btn weui-btn_primary" bindtap="callmeTap">拨打电话</button>
-    <view class="lin"></view>
-
+      <view class="lin"></view>
+        <view class="classname">
+        地址：长沙市岳麓区麓谷中电软件园
+        </view>
+         <view class="lin"></view>
         <map
         style="width: 100%; height: 300px;"
         latitude="{{latitude}}"

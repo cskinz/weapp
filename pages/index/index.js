@@ -76,7 +76,7 @@ var app = getApp();
       suggests: [
       {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -98,5 +98,11 @@ var app = getApp();
     this.setData({ swiperCurrent: e.detail.current });
   },
   //改变轮播图样式
-
+  onShareAppMessage: function () {
+    return {
+      title: '专业互联网服务商',
+      desc: '我们提供专业网站设计,网站开发,小程序开发,网络营销,Vi设计,影视拍摄等一站式服务.',
+      path: '/page/index/index'
+    }
+  }
 })

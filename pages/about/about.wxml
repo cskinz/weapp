@@ -1,2 +1,6 @@
 <!--about.wxml-->
-<view class="classname">资料整理中</view>
+<view class="about">
+<image src="../../images/about.jpg"></image>
+
+<text>专注高端商业设计，助力品牌价值提升，我们只服务于有思想的品牌。</text>
+</view>

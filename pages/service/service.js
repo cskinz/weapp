@@ -7,28 +7,29 @@ Page({
   data: {
     suggests: [
       {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "name": "品牌集团网站",
+        "avatar": "https://www.appcs.cn/images/pp.jpg",
         "tags": [
-          "PC版",
-          "手机版",
-          "微信公众号"
+          "品牌定位",
+          "金牌设计",
+          "个性化设计",
+          "一对一"
         ],
-        "text": "适合大型集团公司品牌推广"
+        "text": "品牌网站，设计为先。获得优质设计效果"
       },
       {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "name": "营销型网站",
+        "avatar": "https://www.appcs.cn/images/yx.jpg",
         "tags": [
-          "PC版",
-          "手机版",
-          "微信公众号"
+          "SEO",
+          "在线询盘",
+          "网站结构优化"
         ],
-        "text": "适合大型集团公司品牌推广"
+        "text": "精准盈利模式定位，明确企业盈利方向，定向吸引客户"
       },
       {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "name": "响应式网站",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -37,8 +38,18 @@ Page({
         "text": "适合大型集团公司品牌推广"
       }
       , {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "name": "企业网站",
+        "avatar": "https://www.appcs.cn/images/t1.png",
+        "tags": [
+          "标准功能",
+          "自由定制",
+          "一站式后台管理"
+        ],
+        "text": "匠心独造企业官网"
+      }
+      , {
+        "name": "APP开发",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -47,18 +58,8 @@ Page({
         "text": "适合大型集团公司品牌推广"
       }
       , {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
-        "tags": [
-          "PC版",
-          "手机版",
-          "微信公众号"
-        ],
-        "text": "适合大型集团公司品牌推广"
-      }
-      , {
-        "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "name": "手机H5开发",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",

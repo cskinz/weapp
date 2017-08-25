@@ -1,6 +1,8 @@
 /* contact.wxss */
 @import '../../style/weui.wxss';
 .container {
+  width: 90%;
+  margin: 20px auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -9,8 +11,7 @@
   padding:0;
   box-sizing: border-box;
 } 
-.banner{margin: 0;padding: 0;width: 100%;}
-image{width: 100%;height: 120px;}
+image{width: 100%;height: 150px;}
 .page .page__bd{width:90%;margin: 50px auto;text-align: center;}
 .contact-title {
   background-color: #fff;

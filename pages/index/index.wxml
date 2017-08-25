@@ -38,7 +38,7 @@
  </view> -->
   		<!-- 热门场地 -->
 		<view class="part" id="hostPlaceList">
-			<view class="part-title" id="hostPlace">集团网站</view>
+			<view class="part-title" id="hostPlace">推荐案例</view>
 			 <a href="detail.html" class="place-item" wx:for="{{suggests}}" wx:key="item.id">
 				<view class="place-item-img" style="background-image:url({{item.avatar}})">
 					<span class="placeType-info"><i wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this">{{tag}}</i></span>

@@ -8,7 +8,7 @@ Page({
     suggests: [
       {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -18,7 +18,7 @@ Page({
       },
       {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -28,7 +28,7 @@ Page({
       },
       {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -38,7 +38,7 @@ Page({
       }
       , {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -48,7 +48,7 @@ Page({
       }
       , {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
@@ -58,7 +58,7 @@ Page({
       }
       , {
         "name": "高端集团网站",
-        "avatar": "../../images/t1.png",
+        "avatar": "https://www.appcs.cn/images/t1.png",
         "tags": [
           "PC版",
           "手机版",
