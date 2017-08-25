@@ -29,43 +29,75 @@ Page({
       },
       {
         "name": "响应式网站",
-        "avatar": "https://www.appcs.cn/images/t1.png",
+        "avatar": "https://www.appcs.cn/images/qy.jpg",
         "tags": [
-          "PC版",
-          "手机版",
-          "微信公众号"
+          "可视化编辑器",
+          "自适应设计",
+          " WordPress定制"
         ],
-        "text": "适合大型集团公司品牌推广"
+        "text": "全球领先的WordPress定制开发"
       }
       , {
         "name": "企业网站",
-        "avatar": "https://www.appcs.cn/images/t1.png",
+        "avatar": "https://www.appcs.cn/images/xys.jpg",
         "tags": [
           "标准功能",
           "自由定制",
           "一站式后台管理"
         ],
-        "text": "匠心独造企业官网"
+        "text": "每一个官方网站都是一件完美的产品"
+      },{
+        "name": "微信小程序开发",
+        "avatar": "https://www.appcs.cn/images/weapp.jpg",
+        "tags": [
+          "LBS",
+          "商城",
+          "会员",
+          "分销",
+          "预约",
+          "行业方案"
+        ],
+        "text": "抢占微信海量用户红利,定制您的小程序吧!"
+      }, {
+        "name": "微信公众平台定制",
+        "avatar": "https://www.appcs.cn/images/wx.jpg",
+        "tags": [
+          "商城",
+          "会员",
+          "分销",
+          "预约",
+          "行业方案"
+        ],
+        "text": "基于微信朋友圈的传播，是打造您的企业营销中心."
       }
       , {
-        "name": "APP开发",
-        "avatar": "https://www.appcs.cn/images/t1.png",
+        "name": "SEO优化",
+        "avatar": "https://www.appcs.cn/images/seo.jpg",
         "tags": [
-          "PC版",
-          "手机版",
-          "微信公众号"
+          "网站优化",
+          "提高转化率",
+          "关键字排名"
         ],
-        "text": "适合大型集团公司品牌推广"
+        "text": "网站优化排名推广,快速提供关键词排名"
+      }
+       , {
+        "name": "APP开发",
+        "avatar": "https://www.appcs.cn/images/wap.jpg",
+        "tags": [
+          "IOS",
+          "安卓"
+        ],
+        "text": "提供各行业移动端APP解决方法"
       }
       , {
         "name": "手机H5开发",
-        "avatar": "https://www.appcs.cn/images/t1.png",
+        "avatar": "https://www.appcs.cn/images/h5.jpg",
         "tags": [
           "PC版",
           "手机版",
           "微信公众号"
         ],
-        "text": "适合大型集团公司品牌推广"
+        "text": "营销活动定制"
       }
     ]
   },

@@ -22,21 +22,6 @@
       </navigator>
       </block>
   </view>
-<!-- <view class="case_title">
-    <text>案例推荐</text>
-  </view>
-          <view class="caselist">
-          <ul>
-                <block wx:for="{{caselist}}" wx:for-item="item" wx:key="item.id">
-
-                 <li>
-                  <image src="{{item.imgurl}}" mode="{{item.mode}}"></image>
-                  <text>{{item.title}}</text>
-                  </li>
-   </block>
-                  </ul>
- </view> -->
-  		<!-- 热门场地 -->
 		<view class="part" id="hostPlaceList">
 			<view class="part-title" id="hostPlace">推荐案例</view>
 			 <a href="detail.html" class="place-item" wx:for="{{suggests}}" wx:key="item.id">

@@ -5,13 +5,12 @@
     "pages/contact/contact",
     "pages/about/about",
     "pages/case/case",
-    "pages/service/service",
-    "pages/test/test"
+    "pages/service/service"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#096CEB",
-    "navigationBarTitleText": "长沙网站制作公司-专业互联网服务商",
+    "navigationBarTitleText": "长沙专业互联网服务商",
     "navigationBarTextStyle": "#fff"
   },
   "tabBar": {

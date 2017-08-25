@@ -30,7 +30,7 @@
 .nav-item text{
   width:160rpx;
   font-size: 26rpx;
-  line-height: 90rpx;
+  line-height: 95rpx;
   color:#fff;
   display: inline-block;
   text-align: center;

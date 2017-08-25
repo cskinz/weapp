@@ -26,29 +26,29 @@ var app = getApp();
     nav: [
       {
         "imgurl": "../../images/web.png",
-        "navigator": "/about/about",
+        "navigator": "../about/about",
         "title": "企业网站制作"
       },
       {
         "imgurl": "../../images/weapp.png",
-        "navigator": "/about/about",
+        "navigator": "../about/about",
         "title": "小程序开发"
       },
       {
         "imgurl": "../../images/mb.png",
-        "navigator": "/contact",
+        "navigator": "../contact/contact",
         "title": "模板网站制作"
       },
       {
         "imgurl": "../../images/seo.png",
-        "navigator": "../pages/about",
+        "navigator": "../about/about",
         "title": "网站SEO优化"
-      }
+      } 
     ],
     caselist:[
       {
         "imgurl": "../../images/t1.png",
-        "navigator": "../about",
+        "navigator": "../about/about/",
         "mode": 'aspectFit',
         "title": "企业网站制作"
       },
@@ -68,10 +68,11 @@ var app = getApp();
       ,
       {
         "imgurl": "../../images/t1.png",
-        "navigator": "../pages/about",
+        "navigator": "../about/about/",
         "mode": 'aspectFit',
         "title": "小程序开发"
       }
+   
     ],
       suggests: [
       {
@@ -102,7 +103,7 @@ var app = getApp();
     return {
       title: '专业互联网服务商',
       desc: '我们提供专业网站设计,网站开发,小程序开发,网络营销,Vi设计,影视拍摄等一站式服务.',
-      path: '/page/index/index'
+      path: '/'
     }
   }
 })
