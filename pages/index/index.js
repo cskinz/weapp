@@ -1,6 +1,14 @@
 var app = getApp();
  Page({
   data: {
+   pages: [
+      "pages/index/index",
+      "pages/logs/logs",
+      "pages/contact/contact",
+      "pages/about/about",
+      "pages/case/case",
+      "pages/service/service"
+    ],
     img_data: [
       {
         "title": "1",
